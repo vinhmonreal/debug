@@ -1,5 +1,5 @@
 from flask import render_template, flash, redirect, url_for
-from .models import User
+from app.blueprints.auth.models import User
 from . import bp
 from app.forms import RegisterForm
 
